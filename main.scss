@@ -101,7 +101,16 @@ img {
 
 //Home Sections
 #home {
+  //Home Section A
   &-a {
+    h2:after {
+      content: " ";
+      width: 100px;
+      border-bottom: 3px solid $main-color;
+      display: block;
+      margin: 0 auto;
+    }
+
     .specials {
       margin-top: 3rem;
       display: grid;
@@ -111,6 +120,39 @@ img {
       .fas {
         color: $main-color;
         padding-bottom: 0.4rem;
+      }
+    }
+  }
+
+  //Home Section B
+  &-b {
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        line-height: 2;
+
+        &.stats-title {
+          font-size: 1.5rem;
+        }
+
+        &.stats-number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+
+      div {
+        padding: 3rem 0;
+
+        &:nth-child(odd) {
+          background: $light-color;
+        }
+
+        &:nth-child(even) {
+          background: $medium-color;
+        }
       }
     }
   }
