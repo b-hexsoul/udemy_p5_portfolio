@@ -87,3 +87,18 @@ input[class^="btn-"]:hover {
     margin: 4rem 0;
   }
 }
+
+h2.section-title:after {
+  content: " ";
+  width: 100px;
+  border-bottom: 2px solid $main-color;
+  display: block;
+  margin: 1rem auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  font-weight: 100;
+  text-transform: uppercase;
+}
