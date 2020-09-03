@@ -3,6 +3,6 @@
 
 
 ## Overview: 
-Website using Sass for the CSS and previous learned CSS of Flexbox and Grid components. 
+Website using the CSS precompiler Sass and previous learned CSS of Flexbox and Grid components. 
 
 ## Learning Highlights (for self review):
